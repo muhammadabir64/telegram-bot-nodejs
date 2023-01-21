@@ -16,7 +16,7 @@ bot.on('message', (msg) => {
 });
 ```
 
-In this example, the bot will listen for incoming messages and respond with "Hello World!" when a message is received. The polling: true option tells the bot to use long polling to receive updates from Telegram.
+In this example, the bot will listen for incoming messages and respond with "Hello World!" when a message is received. The `polling: true` option tells the bot to use long polling to receive updates from Telegram.
 
 You will need to replace `YOUR_TOKEN` with the token you received from the Bot Father after creating your bot.
 
