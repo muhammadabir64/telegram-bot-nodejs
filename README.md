@@ -18,7 +18,7 @@ bot.on('message', (msg) => {
 
 In this example, the bot will listen for incoming messages and respond with "Hello World!" when a message is received. The polling: true option tells the bot to use long polling to receive updates from Telegram.
 
-You will need to replace YOUR_TOKEN with the token you received from the Bot Father after creating your bot.
+You will need to replace `YOUR_TOKEN` with the token you received from the Bot Father after creating your bot.
 
 You can also use commands to make the bot do specific things. For example, you can make the bot respond to the command '/start' like this:
 
